@@ -90,3 +90,42 @@ img:hover {
 .circle:hover .tick {
     animation: showTick 1s forwards;
 }
+
+
+.image-grid {
+    height: 100vh;
+    width: 100%;
+}
+
+.image-cell {
+    height: 100%;
+    padding: 0;
+}
+
+.image-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Keep your existing circle and counter styles */
+
+@media (max-width: 768px) {
+    .image-grid {
+        height: auto;
+    }
+    
+    .image-cell {
+        height: 50vh;
+    }
+}
+
+
+

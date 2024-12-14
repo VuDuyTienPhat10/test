@@ -9,13 +9,11 @@
 </head>
 <body>
     <div class="container-fluid p-0">
-        <!-- Changed col-md-6 to col-sm-6 to maintain side-by-side on iPad -->
-        <div class="row g-0 vh-100">
+        <div class="row g-0 image-grid">
             <!-- Left Dog -->
-            <div class="col-sm-6 h-100" onclick="handleClick('left')">
-                <div class="position-relative h-100">
-                    <img src="https://robohash.org/unique-id-here?set=set4" alt="Left Dog" 
-                         class="w-100 h-100 object-fit-cover">
+            <div class="col-6 image-cell" onclick="handleClick('left')">
+                <div class="image-wrapper">
+                    <img src="https://robohash.org/unique-id-here?set=set4" alt="Left Dog">
                     <div class="circle left-circle">
                         <div class="tick left-tick">✔</div>
                     </div>
@@ -23,10 +21,9 @@
                 </div>
             </div>
             <!-- Right Dog -->
-            <div class="col-sm-6 h-100" onclick="handleClick('right')">
-                <div class="position-relative h-100">
-                    <img src="https://robohash.org/unique-id-here?set=set2" alt="Right Dog" 
-                         class="w-100 h-100 object-fit-cover">
+            <div class="col-6 image-cell" onclick="handleClick('right')">
+                <div class="image-wrapper">
+                    <img src="https://robohash.org/unique-id-here?set=set2" alt="Right Dog">
                     <div class="circle right-circle">
                         <div class="tick right-tick">✔</div>
                     </div>
