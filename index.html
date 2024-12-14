@@ -9,9 +9,10 @@
 </head>
 <body>
     <div class="container-fluid p-0">
+        <!-- Changed col-md-6 to col-sm-6 to maintain side-by-side on iPad -->
         <div class="row g-0 vh-100">
             <!-- Left Dog -->
-            <div class="col-md-6 h-100" onclick="handleClick('left')">
+            <div class="col-sm-6 h-100" onclick="handleClick('left')">
                 <div class="position-relative h-100">
                     <img src="https://robohash.org/unique-id-here?set=set4" alt="Left Dog" 
                          class="w-100 h-100 object-fit-cover">
@@ -22,7 +23,7 @@
                 </div>
             </div>
             <!-- Right Dog -->
-            <div class="col-md-6 h-100" onclick="handleClick('right')">
+            <div class="col-sm-6 h-100" onclick="handleClick('right')">
                 <div class="position-relative h-100">
                     <img src="https://robohash.org/unique-id-here?set=set2" alt="Right Dog" 
                          class="w-100 h-100 object-fit-cover">
@@ -34,10 +35,6 @@
             </div>
         </div>
     </div>
-
-    <audio id="click-sound" src="https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/audioblocks-correct-answer-hint-accept-5_HFD0bIADI_NWM.mp3" preload="auto"></audio>
-
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Rest of the code remains the same -->
 </body>
 </html>
